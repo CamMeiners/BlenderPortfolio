@@ -16,7 +16,10 @@ const getZeroes = (index) => {
 };
 
 const getCurrentFrame = (index) => {
-  return `./blender/${getZeroes(index)}${(index + 1).toString()}.jpg`;
+  // return `./blender/${getZeroes(index)}${(index + 1).toString()}.jpg`;
+  return `https://tancepha.sirv.com/Blender/${getZeroes(index)}${(
+    index + 1
+  ).toString()}.jpg`;
 };
 
 const images = [];
